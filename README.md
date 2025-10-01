@@ -4,16 +4,16 @@ gantt
 
     section Planejamento
     Levantamento de requisitos :a1, 2025-10-01, 5d
-    Definição de arquitetura    :a2, after a1, 4d
+    Definição de arquitetura   :a2, after a1, 4d
 
     section Desenvolvimento
-    Backend                     :b1, after a2, 10d
-    Frontend                    :b2, after b1, 8d
+    Backend                    :b1, after a2, 10d
+    Frontend                   :b2, after b1, 8d
 
     section Testes
-    Testes unitários            :c1, after b2, 5d
-    Testes de integração        :c2, after c1, 6d
+    Testes unitários           :c1, after b2, 5d
+    Testes de integração       :c2, after c1, 6d
 
     section Implantação
-    Deploy ambiente de homolog. :d1, after c2, 3d
-    Deploy em produção          :d2, after d1, 2d
+    Deploy em homologação      :d1, after c2, 3d
+    Deploy em produção         :d2, after d1, 2d
