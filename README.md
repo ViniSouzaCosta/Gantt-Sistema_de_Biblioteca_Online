@@ -1,3 +1,4 @@
+```mermaid
 gantt
     title Sistema de Biblioteca Online
     dateFormat  YYYY-MM-DD
@@ -17,3 +18,4 @@ gantt
     section Implantação
     Deploy em homologação      :d1, after c2, 3d
     Deploy em produção         :d2, after d1, 2d
+```
