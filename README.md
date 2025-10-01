@@ -3,6 +3,10 @@ gantt
     title Sistema de Biblioteca Online
     dateFormat  YYYY-MM-DD
     axisFormat  %d/%m
+    %% Diminuir espaçamento vertical entre tarefas
+    barHeight 20
+    %% Remover cor de fundo das seções
+    sectionPlaneColor transparent
 
     section Planejamento
     Levantamento de requisitos  :a1, 2025-10-01, 5d
@@ -19,6 +23,7 @@ gantt
     section Implantação
     Deploy em homologação       :d1, after c2, 3d
     Deploy em produção          :d2, after d1, 2d
+
 
 
 ```
