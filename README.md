@@ -1,7 +1,7 @@
-# Gantt-Sistema_de_Biblioteca_Online
 gantt
     title Sistema de Biblioteca Online
     dateFormat  YYYY-MM-DD
+
     section Planejamento
     Levantamento de requisitos :a1, 2025-10-01, 5d
     Definição de arquitetura    :a2, after a1, 4d
